@@ -1,0 +1,30 @@
+C:\Users\ASUS\Downloads\pdf\Live Clock\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\ASUS\Downloads\pdf\Live Clock\bin\Debug\net6.0\appsettings.json
+C:\Users\ASUS\Downloads\pdf\Live Clock\bin\Debug\net6.0\Live Clock.staticwebassets.runtime.json
+C:\Users\ASUS\Downloads\pdf\Live Clock\bin\Debug\net6.0\Live Clock.staticwebassets.endpoints.json
+C:\Users\ASUS\Downloads\pdf\Live Clock\bin\Debug\net6.0\Live Clock.exe
+C:\Users\ASUS\Downloads\pdf\Live Clock\bin\Debug\net6.0\Live Clock.deps.json
+C:\Users\ASUS\Downloads\pdf\Live Clock\bin\Debug\net6.0\Live Clock.runtimeconfig.json
+C:\Users\ASUS\Downloads\pdf\Live Clock\bin\Debug\net6.0\Live Clock.dll
+C:\Users\ASUS\Downloads\pdf\Live Clock\bin\Debug\net6.0\Live Clock.pdb
+C:\Users\ASUS\Downloads\pdf\Live Clock\obj\Debug\net6.0\Live Clock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Downloads\pdf\Live Clock\obj\Debug\net6.0\Live Clock.AssemblyInfoInputs.cache
+C:\Users\ASUS\Downloads\pdf\Live Clock\obj\Debug\net6.0\Live Clock.AssemblyInfo.cs
+C:\Users\ASUS\Downloads\pdf\Live Clock\obj\Debug\net6.0\Live Clock.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Downloads\pdf\Live Clock\obj\Debug\net6.0\Live Clock.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ASUS\Downloads\pdf\Live Clock\obj\Debug\net6.0\scopedcss\bundle\Live Clock.styles.css
+C:\Users\ASUS\Downloads\pdf\Live Clock\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\ASUS\Downloads\pdf\Live Clock\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\ASUS\Downloads\pdf\Live Clock\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+C:\Users\ASUS\Downloads\pdf\Live Clock\obj\Debug\net6.0\staticwebassets\msbuild.Live Clock.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ASUS\Downloads\pdf\Live Clock\obj\Debug\net6.0\staticwebassets\msbuild.Live Clock.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\ASUS\Downloads\pdf\Live Clock\obj\Debug\net6.0\staticwebassets\msbuild.build.Live Clock.props
+C:\Users\ASUS\Downloads\pdf\Live Clock\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Live Clock.props
+C:\Users\ASUS\Downloads\pdf\Live Clock\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Live Clock.props
+C:\Users\ASUS\Downloads\pdf\Live Clock\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\ASUS\Downloads\pdf\Live Clock\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+C:\Users\ASUS\Downloads\pdf\Live Clock\obj\Debug\net6.0\Live Clock.dll
+C:\Users\ASUS\Downloads\pdf\Live Clock\obj\Debug\net6.0\refint\Live Clock.dll
+C:\Users\ASUS\Downloads\pdf\Live Clock\obj\Debug\net6.0\Live Clock.pdb
+C:\Users\ASUS\Downloads\pdf\Live Clock\obj\Debug\net6.0\Live Clock.genruntimeconfig.cache
+C:\Users\ASUS\Downloads\pdf\Live Clock\obj\Debug\net6.0\ref\Live Clock.dll

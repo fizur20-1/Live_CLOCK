@@ -1,0 +1,284 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Analog Clocks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .clock-container {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 20px;
+        }
+
+        .clock {
+            width: 250px; /* Increased size */
+            height: 250px;
+            background: white;
+            border-radius: 50%;
+            border: 8px solid #333;
+            position: relative;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Clock Numbers */
+        .number {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            transform-origin: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .number1 {
+            transform: rotate(30deg) translateY(-95px) rotate(-30deg);
+        }
+
+        .number2 {
+            transform: rotate(60deg) translateY(-95px) rotate(-60deg);
+        }
+
+        .number3 {
+            transform: rotate(90deg) translateY(-95px) rotate(-90deg);
+        }
+
+        .number4 {
+            transform: rotate(120deg) translateY(-95px) rotate(-120deg);
+        }
+
+        .number5 {
+            transform: rotate(150deg) translateY(-95px) rotate(-150deg);
+        }
+
+        .number6 {
+            transform: rotate(180deg) translateY(-95px) rotate(-180deg);
+        }
+
+        .number7 {
+            transform: rotate(210deg) translateY(-95px) rotate(-210deg);
+        }
+
+        .number8 {
+            transform: rotate(240deg) translateY(-95px) rotate(-240deg);
+        }
+
+        .number9 {
+            transform: rotate(270deg) translateY(-95px) rotate(-270deg);
+        }
+
+        .number10 {
+            transform: rotate(300deg) translateY(-95px) rotate(-300deg);
+        }
+
+        .number11 {
+            transform: rotate(330deg) translateY(-95px) rotate(-330deg);
+        }
+
+        .number12 {
+            transform: rotate(0deg) translateY(-95px);
+        }
+
+        /* Clock Hands */
+        .hand {
+            position: absolute;
+            width: 50%;
+            height: 3px;
+            background: black;
+            top: 50%;
+            left: 50%;
+            transform-origin: left center;
+            transform: rotate(0deg);
+        }
+
+        #hour, #minute, #second {
+            transform: rotate(0deg);
+        }
+
+
+        .hour {
+            height: 5px;
+            background: #333;
+            width: 30%;
+        }
+
+        .minute {
+            background: #666;
+            width: 40%;
+        }
+
+        .second {
+            background: red;
+            width: 45%;
+            height: 2px;
+        }
+
+        .clock-label {
+            margin-top: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Live Traditional Wall Clocks</h1>
+
+    <div class="clock-container">
+        <!-- Bangladesh Clock -->
+        <div>
+            <div class="clock">
+                <div class="number number1">1</div>
+                <div class="number number2">2</div>
+                <div class="number number3">3</div>
+                <div class="number number4">4</div>
+                <div class="number number5">5</div>
+                <div class="number number6">6</div>
+                <div class="number number7">7</div>
+                <div class="number number8">8</div>
+                <div class="number number9">9</div>
+                <div class="number number10">10</div>
+                <div class="number number11">11</div>
+                <div class="number number12">12</div>
+
+                <div class="hand hour" id="bd-hour"></div>
+                <div class="hand minute" id="bd-minute"></div>
+                <div class="hand second" id="bd-second"></div>
+            </div>
+            <div class="clock-label">Bangladesh</div>
+        </div>
+
+        <!-- UK Clock -->
+        <div>
+            <div class="clock">
+                <div class="number number1">1</div>
+                <div class="number number2">2</div>
+                <div class="number number3">3</div>
+                <div class="number number4">4</div>
+                <div class="number number5">5</div>
+                <div class="number number6">6</div>
+                <div class="number number7">7</div>
+                <div class="number number8">8</div>
+                <div class="number number9">9</div>
+                <div class="number number10">10</div>
+                <div class="number number11">11</div>
+                <div class="number number12">12</div>
+
+                <div class="hand hour" id="uk-hour"></div>
+                <div class="hand minute" id="uk-minute"></div>
+                <div class="hand second" id="uk-second"></div>
+            </div>
+            <div class="clock-label">United Kingdom</div>
+        </div>
+
+        <!-- Germany Clock -->
+        <div>
+            <div class="clock">
+                <div class="number number1">1</div>
+                <div class="number number2">2</div>
+                <div class="number number3">3</div>
+                <div class="number number4">4</div>
+                <div class="number number5">5</div>
+                <div class="number number6">6</div>
+                <div class="number number7">7</div>
+                <div class="number number8">8</div>
+                <div class="number number9">9</div>
+                <div class="number number10">10</div>
+                <div class="number number11">11</div>
+                <div class="number number12">12</div>
+
+                <div class="hand hour" id="de-hour"></div>
+                <div class="hand minute" id="de-minute"></div>
+                <div class="hand second" id="de-second"></div>
+            </div>
+            <div class="clock-label">Germany</div>
+        </div>
+    </div>
+
+    <script>
+        async function fetchTime() {
+            try {
+                let response = await fetch('https://localhost:7202/api/clock'); // Ensure API is correct
+                let data = await response.json();
+
+                // Ensure the API returns proper DateTime format for each country
+                let bangladeshTime = new Date(data.bangladesh);
+                let ukTime = new Date(data.uk);
+                let germanyTime = new Date(data.germany);
+
+               
+                updateClock('bd', bangladeshTime);
+                updateClock('uk', ukTime);
+                updateClock('de', germanyTime);
+
+            } catch (error) {
+                console.error('Error fetching time:', error);
+            }
+        }
+
+        function updateClock(prefix, time) {
+            let hours = time.getHours();
+            let minutes = time.getMinutes();
+            let seconds = time.getSeconds();
+
+            let hours12 = hours % 12;
+            let hourAngle = (hours12 * 30) + (minutes * 0.5) - 90;  // Adjust default 12:00 position
+            let minuteAngle = (minutes * 6) - 90;
+            let secondAngle = (seconds * 6) - 90;  
+
+
+          
+            let hourHand = document.getElementById(`${prefix}-hour`);
+            let minuteHand = document.getElementById(`${prefix}-minute`);
+            let secondHand = document.getElementById(`${prefix}-second`);
+
+            if (!hourHand || !minuteHand || !secondHand) {
+                console.error(`⚠ Error: Cannot find clock hands for ${prefix}`);
+                return;
+            }
+
+            // Force update to fix wrong placements
+            hourHand.style.transition = "none";
+            minuteHand.style.transition = "none";
+            secondHand.style.transition = "none";
+
+            setTimeout(() => {
+                hourHand.style.transform = `rotate(${hourAngle}deg)`;
+                minuteHand.style.transform = `rotate(${minuteAngle}deg)`;
+                secondHand.style.transform = `rotate(${secondAngle}deg)`;
+
+                hourHand.style.transition = "transform 0.5s ease-in-out";
+                minuteHand.style.transition = "transform 0.5s ease-in-out";
+                secondHand.style.transition = "transform 0.2s linear";
+            }, 10);
+        }
+
+
+
+
+        // Fetch time every second
+        fetchTime();
+        setInterval(fetchTime, 100);
+
+    </script>
+
+</body>
+</html>

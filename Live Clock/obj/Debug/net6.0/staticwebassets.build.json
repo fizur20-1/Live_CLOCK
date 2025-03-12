@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "oqd3KkfZL25ehP0hHAz5GHcrr6cKW+hDFflikRtQwAw=",
+  "Source": "Live Clock",
+  "BasePath": "_content/Live Clock",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Live Clock\\wwwroot",
+      "Source": "Live Clock",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\pdf\\Live Clock\\wwwroot\\",
+      "BasePath": "_content/Live Clock",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ASUS\\Downloads\\pdf\\Live Clock\\wwwroot\\Index.html",
+      "SourceId": "Live Clock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\Downloads\\pdf\\Live Clock\\wwwroot\\",
+      "BasePath": "_content/Live Clock",
+      "RelativePath": "Index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nezyrpt6pm",
+      "Integrity": "vzaiK3/t875LIrYuCx9LaVFvNUlOXp4qC9bNJKy8iGI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Index.html",
+      "AssetFile": "C:\\Users\\ASUS\\Downloads\\pdf\\Live Clock\\wwwroot\\Index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9040"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vzaiK3/t875LIrYuCx9LaVFvNUlOXp4qC9bNJKy8iGI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Feb 2025 13:21:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vzaiK3/t875LIrYuCx9LaVFvNUlOXp4qC9bNJKy8iGI="
+        }
+      ]
+    },
+    {
+      "Route": "Index.nezyrpt6pm.html",
+      "AssetFile": "C:\\Users\\ASUS\\Downloads\\pdf\\Live Clock\\wwwroot\\Index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9040"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vzaiK3/t875LIrYuCx9LaVFvNUlOXp4qC9bNJKy8iGI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Feb 2025 13:21:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nezyrpt6pm"
+        },
+        {
+          "Name": "label",
+          "Value": "Index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vzaiK3/t875LIrYuCx9LaVFvNUlOXp4qC9bNJKy8iGI="
+        }
+      ]
+    }
+  ]
+}
